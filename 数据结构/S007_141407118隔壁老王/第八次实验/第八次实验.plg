@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 第八次实验 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\STUDENT\LOCALS~1\Temp\RSP35.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/第八次实验.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\141407118隔壁老王\第八次实验\1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\STUDENT\LOCALS~1\Temp\RSP35.tmp" 
+<h3>Output Window</h3>
+Compiling...
+1.cpp
+
+
+
+<h3>Results</h3>
+1.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

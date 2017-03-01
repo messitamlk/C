@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 第二次实验 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\STUDENT\LOCALS~1\Temp\RSP11.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/第二次实验.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\141407118王海浩\第二次实验\第二次实验.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\STUDENT\LOCALS~1\Temp\RSP11.tmp" 
+<h3>Output Window</h3>
+Compiling...
+第二次实验.cpp
+D:\141407118王海浩\第二次实验\第二次实验.cpp(66) : warning C4700: local variable 'r' used without having been initialized
+D:\141407118王海浩\第二次实验\第二次实验.cpp(67) : warning C4700: local variable 'q' used without having been initialized
+
+
+
+<h3>Results</h3>
+第二次实验.obj - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
