@@ -1,0 +1,168 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 小学期实验一 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\dark1\AppData\Local\Temp\RSPC23D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/小学期实验一.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\程序\小学期实验一\main.c"
+]
+Creating command line "cl.exe @C:\Users\dark1\AppData\Local\Temp\RSPC23D.tmp" 
+<h3>Output Window</h3>
+Compiling...
+main.c
+d:\程序\小学期实验一\main.c(52) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(66) : error C2065: 'choose' : undeclared identifier
+d:\程序\小学期实验一\main.c(106) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(145) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(146) : error C2275: 'book' : illegal use of this type as an expression
+        d:\程序\小学期实验一\main.c(14) : see declaration of 'book'
+d:\程序\小学期实验一\main.c(146) : error C2065: 'p' : undeclared identifier
+d:\程序\小学期实验一\main.c(149) : error C2065: 'num' : undeclared identifier
+d:\程序\小学期实验一\main.c(157) : error C2065: 'judge' : undeclared identifier
+d:\程序\小学期实验一\main.c(158) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct book_line *'
+d:\程序\小学期实验一\main.c(158) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+d:\程序\小学期实验一\main.c(158) : error C2223: left of '->next' must point to struct/union
+d:\程序\小学期实验一\main.c(160) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(163) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(165) : error C2223: left of '->name_book' must point to struct/union
+d:\程序\小学期实验一\main.c(165) : error C2198: 'puts' : too few actual parameters
+d:\程序\小学期实验一\main.c(166) : error C2223: left of '->price' must point to struct/union
+d:\程序\小学期实验一\main.c(168) : error C2223: left of '->name_aurthor' must point to struct/union
+d:\程序\小学期实验一\main.c(168) : error C2198: 'puts' : too few actual parameters
+d:\程序\小学期实验一\main.c(169) : error C2223: left of '->state' must point to struct/union
+d:\程序\小学期实验一\main.c(170) : error C2223: left of '->no_reader' must point to struct/union
+d:\程序\小学期实验一\main.c(195) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(196) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(197) : error C2275: 'book' : illegal use of this type as an expression
+        d:\程序\小学期实验一\main.c(14) : see declaration of 'book'
+d:\程序\小学期实验一\main.c(200) : error C2065: 'name' : undeclared identifier
+d:\程序\小学期实验一\main.c(200) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'int '
+d:\程序\小学期实验一\main.c(200) : warning C4024: 'gets' : different types for formal and actual parameter 1
+d:\程序\小学期实验一\main.c(203) : warning C4013: 'strcmp' undefined; assuming extern returning int
+d:\程序\小学期实验一\main.c(208) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct book_line *'
+d:\程序\小学期实验一\main.c(208) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+d:\程序\小学期实验一\main.c(208) : error C2223: left of '->next' must point to struct/union
+d:\程序\小学期实验一\main.c(210) : error C2223: left of '->name_book' must point to struct/union
+d:\程序\小学期实验一\main.c(213) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(215) : error C2223: left of '->name_book' must point to struct/union
+d:\程序\小学期实验一\main.c(215) : error C2198: 'puts' : too few actual parameters
+d:\程序\小学期实验一\main.c(216) : error C2223: left of '->price' must point to struct/union
+d:\程序\小学期实验一\main.c(218) : error C2223: left of '->name_aurthor' must point to struct/union
+d:\程序\小学期实验一\main.c(218) : error C2198: 'puts' : too few actual parameters
+d:\程序\小学期实验一\main.c(219) : error C2223: left of '->state' must point to struct/union
+d:\程序\小学期实验一\main.c(220) : error C2223: left of '->no_reader' must point to struct/union
+d:\程序\小学期实验一\main.c(228) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'int '
+d:\程序\小学期实验一\main.c(228) : warning C4024: 'gets' : different types for formal and actual parameter 1
+d:\程序\小学期实验一\main.c(233) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'int '
+d:\程序\小学期实验一\main.c(233) : warning C4024: 'gets' : different types for formal and actual parameter 1
+d:\程序\小学期实验一\main.c(243) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(244) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(245) : error C2275: 'book' : illegal use of this type as an expression
+        d:\程序\小学期实验一\main.c(14) : see declaration of 'book'
+d:\程序\小学期实验一\main.c(248) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'int '
+d:\程序\小学期实验一\main.c(248) : warning C4024: 'gets' : different types for formal and actual parameter 1
+d:\程序\小学期实验一\main.c(256) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct book_line *'
+d:\程序\小学期实验一\main.c(256) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+d:\程序\小学期实验一\main.c(256) : error C2223: left of '->next' must point to struct/union
+d:\程序\小学期实验一\main.c(258) : error C2223: left of '->name_aurthor' must point to struct/union
+d:\程序\小学期实验一\main.c(261) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(263) : error C2223: left of '->name_book' must point to struct/union
+d:\程序\小学期实验一\main.c(263) : error C2198: 'puts' : too few actual parameters
+d:\程序\小学期实验一\main.c(264) : error C2223: left of '->price' must point to struct/union
+d:\程序\小学期实验一\main.c(266) : error C2223: left of '->name_aurthor' must point to struct/union
+d:\程序\小学期实验一\main.c(266) : error C2198: 'puts' : too few actual parameters
+d:\程序\小学期实验一\main.c(267) : error C2223: left of '->state' must point to struct/union
+d:\程序\小学期实验一\main.c(268) : error C2223: left of '->no_reader' must point to struct/union
+d:\程序\小学期实验一\main.c(276) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'int '
+d:\程序\小学期实验一\main.c(276) : warning C4024: 'gets' : different types for formal and actual parameter 1
+d:\程序\小学期实验一\main.c(281) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'int '
+d:\程序\小学期实验一\main.c(281) : warning C4024: 'gets' : different types for formal and actual parameter 1
+d:\程序\小学期实验一\main.c(299) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(342) : error C2275: 'book' : illegal use of this type as an expression
+        d:\程序\小学期实验一\main.c(14) : see declaration of 'book'
+d:\程序\小学期实验一\main.c(343) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(344) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct book_line *'
+d:\程序\小学期实验一\main.c(344) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+d:\程序\小学期实验一\main.c(344) : error C2223: left of '->next' must point to struct/union
+d:\程序\小学期实验一\main.c(346) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(348) : error C2223: left of '->name_book' must point to struct/union
+d:\程序\小学期实验一\main.c(348) : error C2198: 'puts' : too few actual parameters
+d:\程序\小学期实验一\main.c(349) : error C2223: left of '->price' must point to struct/union
+d:\程序\小学期实验一\main.c(351) : error C2223: left of '->name_aurthor' must point to struct/union
+d:\程序\小学期实验一\main.c(351) : error C2198: 'puts' : too few actual parameters
+d:\程序\小学期实验一\main.c(352) : error C2223: left of '->state' must point to struct/union
+d:\程序\小学期实验一\main.c(353) : error C2223: left of '->no_reader' must point to struct/union
+d:\程序\小学期实验一\main.c(358) : error C2065: 'ch' : undeclared identifier
+d:\程序\小学期实验一\main.c(370) : error C2275: 'book' : illegal use of this type as an expression
+        d:\程序\小学期实验一\main.c(14) : see declaration of 'book'
+d:\程序\小学期实验一\main.c(370) : error C2065: 'q' : undeclared identifier
+d:\程序\小学期实验一\main.c(370) : error C2100: illegal indirection
+d:\程序\小学期实验一\main.c(371) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct book_line *'
+d:\程序\小学期实验一\main.c(373) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(375) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(378) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct book_line *'
+d:\程序\小学期实验一\main.c(378) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+d:\程序\小学期实验一\main.c(378) : error C2223: left of '->next' must point to struct/union
+d:\程序\小学期实验一\main.c(380) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(380) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(383) : warning C4022: 'free' : pointer mismatch for actual parameter 1
+d:\程序\小学期实验一\main.c(389) : error C2223: left of '->name_book' must point to struct/union
+d:\程序\小学期实验一\main.c(389) : error C2198: 'gets' : too few actual parameters
+d:\程序\小学期实验一\main.c(391) : error C2223: left of '->price' must point to struct/union
+d:\程序\小学期实验一\main.c(394) : error C2223: left of '->name_aurthor' must point to struct/union
+d:\程序\小学期实验一\main.c(394) : error C2198: 'gets' : too few actual parameters
+d:\程序\小学期实验一\main.c(395) : error C2223: left of '->state' must point to struct/union
+d:\程序\小学期实验一\main.c(399) : error C2223: left of '->no_reader' must point to struct/union
+d:\程序\小学期实验一\main.c(401) : error C2223: left of '->next' must point to struct/union
+d:\程序\小学期实验一\main.c(402) : warning C4047: '=' : 'struct book_line *' differs in levels of indirection from 'int '
+d:\程序\小学期实验一\main.c(403) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct book_line *'
+d:\程序\小学期实验一\main.c(409) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(415) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct book_line *'
+d:\程序\小学期实验一\main.c(416) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(420) : warning C4022: 'free' : pointer mismatch for actual parameter 1
+d:\程序\小学期实验一\main.c(428) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(429) : error C2275: 'book' : illegal use of this type as an expression
+        d:\程序\小学期实验一\main.c(14) : see declaration of 'book'
+d:\程序\小学期实验一\main.c(429) : error C2100: illegal indirection
+d:\程序\小学期实验一\main.c(441) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct book_line *'
+d:\程序\小学期实验一\main.c(441) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+d:\程序\小学期实验一\main.c(441) : error C2223: left of '->next' must point to struct/union
+d:\程序\小学期实验一\main.c(443) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(446) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(448) : error C2223: left of '->name_book' must point to struct/union
+d:\程序\小学期实验一\main.c(448) : error C2198: 'puts' : too few actual parameters
+d:\程序\小学期实验一\main.c(449) : error C2223: left of '->price' must point to struct/union
+d:\程序\小学期实验一\main.c(451) : error C2223: left of '->name_aurthor' must point to struct/union
+d:\程序\小学期实验一\main.c(451) : error C2198: 'puts' : too few actual parameters
+d:\程序\小学期实验一\main.c(460) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(461) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct book_line *'
+d:\程序\小学期实验一\main.c(461) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+d:\程序\小学期实验一\main.c(461) : error C2223: left of '->next' must point to struct/union
+d:\程序\小学期实验一\main.c(463) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(465) : error C2065: 'judge2' : undeclared identifier
+d:\程序\小学期实验一\main.c(470) : error C2223: left of '->no_book' must point to struct/union
+d:\程序\小学期实验一\main.c(479) : error C2223: left of '->name_book' must point to struct/union
+d:\程序\小学期实验一\main.c(479) : error C2198: 'gets' : too few actual parameters
+d:\程序\小学期实验一\main.c(481) : error C2223: left of '->price' must point to struct/union
+d:\程序\小学期实验一\main.c(484) : error C2223: left of '->name_aurthor' must point to struct/union
+d:\程序\小学期实验一\main.c(484) : error C2198: 'gets' : too few actual parameters
+d:\程序\小学期实验一\main.c(513) : error C2143: syntax error : missing ';' before 'type'
+d:\程序\小学期实验一\main.c(514) : error C2275: 'book' : illegal use of this type as an expression
+        d:\程序\小学期实验一\main.c(14) : see declaration of 'book'
+d:\程序\小学期实验一\main.c(514) : error C2100: illegal indirection
+d:\程序\小学期实验一\main.c(514) : error C2065: 'r' : undeclared identifier
+d:\程序\小学期实验一\main.c(514) : fatal error C1003: error count exceeds 100; stopping compilation
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+main.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
